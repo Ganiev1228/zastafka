@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css2?family=Alata&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Alata', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0)),url(./noch.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    flex-direction: column;
+    gap: 20px;
+}
+.date{
+    display: flex;
+    flex-direction: row;
+    color: rgb(186, 186, 114);
+    font-size: x-large;
+}
+.time{
+    display: flex;
+    font-size: 120px;
+    user-select: none;
+    width: 380px;
+    /* border: 1px solid white; */
+    color: rgb(188, 254, 90);
+    flex-direction: row;
+}
